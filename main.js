@@ -24,6 +24,7 @@ app.get('/messages', (req, res) => {
       console.error(err)
       return res.status(500).send('An error has occurred.')
     }
+    console.log(result)
     res.send(result);
   })
 })
@@ -38,7 +39,12 @@ app.post('/messages', (req, res) => {
       return res.status(500).send('An error has occurred.')
     }
     io.emit('message', req.body);
-    res.status(200).send('success');
+    const responce = {
+      name: req.body.name,
+      message: req.body.message
+    }
+    console.log(responce)
+    res.status(201).send(responce);
   })
 })
 
