@@ -1,4 +1,4 @@
-# instant-chat
+# instant-chat-socket.io
 
 This project is an exemple of realtime chat using socket.io and express server. 
 
