@@ -1,5 +1,7 @@
 # instant-chat-socket.io
 
+### [DEPRECIATE] This preject is depreciated, please check the new version at https://github.com/SmaugDev/instant-chat
+
 This project is an exemple of realtime chat using socket.io and express server. 
 
 ## How to install
