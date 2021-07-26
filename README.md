@@ -38,3 +38,6 @@ name: 'username',
 message: 'message content' 
 }
   ```
+### License
+
+This project have an MIT licence
